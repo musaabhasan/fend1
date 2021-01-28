@@ -1,0 +1,115 @@
+.postcard {
+    display: grid;
+    justify-content: center;
+    background-color: #b1a4a4;
+    width: 500px;
+    height: 600px;
+}
+
+.posttitle {
+    width: 500px;
+    height: 10px;
+    text-align: left;
+    padding-top: 2px;
+    padding-left: 4px;
+}
+
+.postimage {
+    width: 500px;
+    height: 250px;
+    padding-left: 4px;
+}
+
+.postshare {
+    width: 500px;
+    height: 50px;
+    text-align: right;
+}
+
+.postcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .postcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .postcard {
+        width: 250px;
+    }
+    .posttitle {
+        width: 250px;
+    }
+    .postimage {
+        width: 250px;
+        height: 100px;
+    }
+    .postshare {
+        width: 250px;
+    }
+    .authorcard {
+        width: 150px;
+    }
+    .authortext {
+        width: 150px;
+    }
+    .authorparag {
+        width: 150px;
+    }
+}
+
+.authorcard {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #b1a4a4;
+    width: 200px;
+    height: 300px;
+    padding-left: 3px;
+}
+
+.authortext {
+    width: 200px;
+    height: 15px;
+    text-align: left;
+}
+
+.authorparag {
+    width: 200px;
+    height: 79px;
+}
+
+.postavatar {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-image: url("../images/avatar.jpg");
+}
+
+pr {
+    padding-left: 4px;
+    font-style: italic;
+    color: rgb(17, 19, 138);
+}
+
+h1 {
+    color: rgb(89, 29, 138);
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 3px 1px;
+    cursor: pointer;
+    background-color: rgb(82, 88, 90);
+}
